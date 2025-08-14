@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for automatic translation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.x.x",
+    "express": "^4.17.1",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
